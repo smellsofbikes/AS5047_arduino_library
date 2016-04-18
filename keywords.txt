@@ -1,0 +1,22 @@
+#######################################
+# Syntax Coloring Map For AS5047 Library
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+AS5047	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+sensor_read	KEYWORD2
+error_read	KEYWORD2
+align_and_agc_read	KEYWORD2
+read_register KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
