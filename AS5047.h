@@ -1,5 +1,7 @@
-#ifndef AS5047.h
-#define AS5047.h
+#ifndef AS5047_h
+#define AS5047_h
+
+#include "Arduino.h"
 
 class AS5047
 {
@@ -13,7 +15,7 @@ class AS5047
                 const uint16_t _ss;
 };
 #endif
-~                                                                               
+                                                                           
 ~                                                                               
 ~                                                                               
 ~                                                                               
