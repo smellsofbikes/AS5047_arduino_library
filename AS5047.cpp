@@ -5,8 +5,9 @@
 AS5047::AS5047(uint16_t SelectPin)
          : _ss(SelectPin)
 {
-        SPI.begin();
-        pinMode(_ss, INPUT);
+         pinMode(_ss, INPUT);
+         SPCR = (1<<SPE) | (1<<MSTR) | (1<<CPHA) | (1<<SPR1) | (1<<SPR0); // slow down clock speed, set up spi
+         SPI.begin();
 }
 
 uint32_t AS5047::sensor_read(void)
