@@ -15,7 +15,7 @@ AS5047	KEYWORD1
 sensor_read	KEYWORD2
 error_read	KEYWORD2
 align_and_agc_read	KEYWORD2
-read_register KEYWORD2
+read_register	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
